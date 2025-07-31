@@ -441,10 +441,20 @@ h2 {
 }
 
 /* Team section */
+#team > p {
+  margin-top: 1.5rem;      /* Keeps space between team list and the paragraph */
+  text-align: center;      /* Centers the text */
+  max-width: 600px;        /* Optional: limits width so text lines don't stretch too wide */
+  margin-left: auto;       /* Centers block horizontally */
+  margin-right: auto;      /* Centers block horizontally */
+}
 .team-list {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+}
+.team-list {
+  margin-bottom: 1.5rem;
 }
 .team-member {
   text-align: center;
